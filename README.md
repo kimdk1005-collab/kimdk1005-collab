@@ -1,6 +1,6 @@
 <div align="center">
 
-# 김도근 · Kim Do-geun
+# 김도근 · Kim Do-guen
 
 **On-Device AI Semiconductor & Embedded Systems Engineer**
 
