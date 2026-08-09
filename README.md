@@ -7,7 +7,7 @@
 MCU 펌웨어부터 FPGA RTL, Edge AI 추론 최적화까지<br>
 연산이 일어나는 가장 아래 계층을 설계하고 검증합니다.
 
-<a href="mailto:kimdk1005@gmail.com"><img src="https://img.shields.io/badge/Gmail: kimdk100@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+<a href="mail to:kimdk1005@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
 <a href="tel:01039053964"><img src="https://img.shields.io/badge/010--3905--3964-2E7D32?style=flat-square" alt="Phone"></a>
 <a href="https://www.youtube.com/@Xenonex11038"><img src="https://img.shields.io/badge/시연영상-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="YouTube"></a>
 
