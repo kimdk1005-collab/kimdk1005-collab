@@ -17,14 +17,58 @@ MCU 펌웨어부터 FPGA RTL, Edge AI 추론 최적화까지<br>
 
 ### 🛠 Tech Stack
 
-| | |
-|---|---|
-| **Language · Tools** | <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/Verilog-1A73E8?style=flat-square"> <img src="https://img.shields.io/badge/SystemVerilog-174EA6?style=flat-square"> <img src="https://img.shields.io/badge/Tcl-9C6B30?style=flat-square"> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"> |
-| **FPGA · SoC** | <img src="https://img.shields.io/badge/Vivado%20%2F%20Vitis-E48400?style=flat-square&logo=xilinx&logoColor=white"> <img src="https://img.shields.io/badge/MicroBlaze%20V-C8102E?style=flat-square&logo=amd&logoColor=white"> <img src="https://img.shields.io/badge/AXI4--Lite-6A1B9A?style=flat-square"> <img src="https://img.shields.io/badge/Basys3%20(Artix--7)-0071C5?style=flat-square&logo=xilinx&logoColor=white"> |
-| **Embedded** | <img src="https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white"> <img src="https://img.shields.io/badge/ATmega128A-EF7C00?style=flat-square"> <img src="https://img.shields.io/badge/FreeRTOS-3C9C35?style=flat-square&logo=freertos&logoColor=white"> <img src="https://img.shields.io/badge/STM32CubeIDE-00A9E0?style=flat-square"> |
-| **Edge AI · Vision** | <img src="https://img.shields.io/badge/YOLOv11-111F68?style=flat-square"> <img src="https://img.shields.io/badge/NCNN-FF6F00?style=flat-square"> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white"> <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white"> |
-| **Interface** | `AXI4-Lite` `UART` `CAN(MCP2515)` `I2C` `SPI` `BLE` `PWM` `ADC+DMA` `GPIO/EXTI` |
-| **Method** | `RTL 설계·Testbench 검증` `Timing Closure` `IP Packaging·Block Design` `FreeRTOS Task/Mutex/Queue` `Non-blocking FSM` |
+<table>
+<tr>
+<td><b>Language&nbsp;·&nbsp;Tools</b></td>
+<td>
+<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black">
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/Verilog-1A73E8?style=flat-square">
+<img src="https://img.shields.io/badge/SystemVerilog-174EA6?style=flat-square">
+<img src="https://img.shields.io/badge/Tcl-9C6B30?style=flat-square">
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
+</td>
+</tr>
+<tr>
+<td><b>FPGA&nbsp;·&nbsp;SoC</b></td>
+<td>
+<img src="https://img.shields.io/badge/Vivado%20%2F%20Vitis-E48400?style=flat-square&logo=xilinx&logoColor=white">
+<img src="https://img.shields.io/badge/MicroBlaze%20V-C8102E?style=flat-square&logo=amd&logoColor=white">
+<img src="https://img.shields.io/badge/AXI4--Lite-6A1B9A?style=flat-square">
+<img src="https://img.shields.io/badge/Basys3%20(Artix--7)-0071C5?style=flat-square&logo=xilinx&logoColor=white">
+</td>
+</tr>
+<tr>
+<td><b>Embedded</b></td>
+<td>
+<img src="https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white">
+<img src="https://img.shields.io/badge/ATmega128A-EF7C00?style=flat-square">
+<img src="https://img.shields.io/badge/FreeRTOS-3C9C35?style=flat-square&logo=freertos&logoColor=white">
+<img src="https://img.shields.io/badge/STM32CubeIDE-00A9E0?style=flat-square">
+</td>
+</tr>
+<tr>
+<td><b>Edge&nbsp;AI&nbsp;·&nbsp;Vision</b></td>
+<td>
+<img src="https://img.shields.io/badge/YOLOv11-111F68?style=flat-square">
+<img src="https://img.shields.io/badge/NCNN-FF6F00?style=flat-square">
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white">
+<img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white">
+</td>
+</tr>
+<tr>
+<td><b>Interface</b></td>
+<td>
+<code>AXI4-Lite</code> <code>UART</code> <code>CAN(MCP2515)</code> <code>I2C</code> <code>SPI</code> <code>BLE</code> <code>PWM</code> <code>ADC+DMA</code> <code>GPIO/EXTI</code>
+</td>
+</tr>
+<tr>
+<td><b>Method</b></td>
+<td>
+<code>RTL 설계·Testbench 검증</code> <code>Timing Closure</code> <code>IP Packaging·Block Design</code> <code>FreeRTOS Task/Mutex/Queue</code> <code>Non-blocking FSM</code>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -32,12 +76,12 @@ MCU 펌웨어부터 FPGA RTL, Edge AI 추론 최적화까지<br>
 
 | 프로젝트 | 기술 | 핵심 구현 |
 |---|---|---|
-| **[EdgeScope-Lite SoC](https://github.com/kimdk1005-collab/EdgeScope-Lite-SoC)**<br><sub>2026.08 · 3인팀</sub> | SystemVerilog · Vivado/Vitis<br>MicroBlaze V · Basys3 (Artix-7) | CPU 폴링 1.67 MS/s를 **하드웨어 100 MS/s 등간격 캡처**로 전환 — Probe Sampler IP 설계·SoC 통합 담당 |
+| **[EdgeScope-Lite SoC](https://github.com/kimdk1005-collab/EdgeScope-Lite-SoC)**<br><sub>2026.08 · 3인팀</sub> | SystemVerilog · Vivado/Vitis<br>MicroBlaze V · Basys3 (Artix-7) | CPU 폴링 1.67 MS/s를 **하드웨어 100 MS/s 등간격 캡처**로 전환<br><sub>담당 — Probe Sampler IP 설계 · Vivado HW Platform 통합</sub> |
+| **[Object-Detecting Autonomous Taxi](https://github.com/kimdk1005-collab/Object-Detecting-Autonomous-Taxi)**<br><sub>2026.07 · 3인팀</sub> | YOLO11n · NCNN<br>Raspberry Pi · STM32F446 · CAN | 학습 해상도 640→320 재조정으로 **탐지 지연 2초 해소**<br><sub>담당 — YOLO11n 학습·ONNX 변환, 데이터셋 6종 구축, NCNN 추론 최적화</sub> |
 | **[MimicArm](https://github.com/kimdk1005-collab/MimicArm-FPGA-Project)**<br><sub>2026.06 · 3인팀</sub> | Verilog · Vivado<br>Basys3 (Artix-7) | BRAM IP·나눗셈 없이 **D-FF 레지스터 뱅크**로 Teach & Playback 로봇팔 구현 |
-| **[Object-Detecting Autonomous Taxi](https://github.com/kimdk1005-collab/Object-Detecting-Autonomous-Taxi)**<br><sub>2026.07 · 3인팀</sub> | YOLO11n · NCNN<br>Raspberry Pi · STM32F446 · CAN | 학습 해상도 640→320 재조정으로 **탐지 지연 2초 해소** |
-| **[Beyond Control (3-Way RC Car)](https://github.com/kimdk1005-collab/3-Way-RC-Car)**<br><sub>2026.06 · 개인</sub> | STM32F411 · FreeRTOS<br>BLE · ADC+DMA | 스마트폰·자율주행·전용 컨트롤러를 **3-Way 제어로 통합** |
-| **[Touch-free Elevator](https://github.com/kimdk1005-collab/Touch-Free-Elevator)**<br><sub>2026.05 · 3인팀</sub> | STM32F411RE<br>Non-Blocking FSM | 비접촉 IR 호출 + **방향성 SCAN 배차 알고리즘** 구현 |
-| **[Smart Fish Tank](https://github.com/kimdk1005-collab/Smart-Fish-Tank)**<br><sub>2026.05 · 4인팀</sub> | ATmega128A<br>Dual-MCU | 조도센서 **차분(DIFF) 방식 탁도 측정**으로 저가 센서 정확도 보완 |
+| **[Beyond Control (3-Way RC Car)](https://github.com/kimdk1005-collab/3-Way-RC-Car)**<br><sub>2026.06 · 개인</sub> | STM32F411 · FreeRTOS<br>BLE · ADC+DMA | 스마트폰·자율주행·전용 컨트롤러를 **3-Way 제어로 통합**<br><sub>담당 — 기획·회로 구성·펌웨어·제어 알고리즘 전 범위 단독 구현</sub> |
+| **[Touch-free Elevator](https://github.com/kimdk1005-collab/Touch-Free-Elevator)**<br><sub>2026.05 · 3인팀</sub> | STM32F411RE<br>Non-Blocking FSM | 비접촉 IR 호출 + **방향성 SCAN 배차 알고리즘** 구현<br><sub>담당 — 스텝모터 층간 이동 제어, FND 층 표시, 하드웨어 제작</sub> |
+| **[Smart Fish Tank](https://github.com/kimdk1005-collab/Smart-Fish-Tank)**<br><sub>2026.05 · 4인팀</sub> | ATmega128A<br>Dual-MCU | 조도센서 **차분(DIFF) 방식 탁도 측정**으로 저가 센서 정확도 보완<br><sub>담당 — 자동 먹이 배급 모듈 구현, 하드웨어 제작</sub> |
 
 > 📺 전체 시연 영상 → **[YouTube](https://www.youtube.com/@Xenonex11038)** ｜ 각 저장소에 설계 의도와 트러블슈팅을 문서화해 두었습니다.
 
