@@ -21,11 +21,13 @@ MCU 펌웨어부터 FPGA RTL, Edge AI 추론 최적화까지<br>
   <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
   <img src="https://img.shields.io/badge/Verilog-1A73E8?style=flat-square">
+  <img src="https://img.shields.io/badge/SystemVerilog-174EA6?style=flat-square">
   <br>
   <img src="https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white">
   <img src="https://img.shields.io/badge/ATmega128A-EF7C00?style=flat-square">
   <img src="https://img.shields.io/badge/FreeRTOS-3C9C35?style=flat-square&logo=freertos&logoColor=white">
-  <img src="https://img.shields.io/badge/Vivado-E48400?style=flat-square&logo=xilinx&logoColor=white">
+  <img src="https://img.shields.io/badge/Vivado%20%2F%20Vitis-E48400?style=flat-square&logo=xilinx&logoColor=white">
+  <img src="https://img.shields.io/badge/MicroBlaze%20V-C8102E?style=flat-square&logo=amd&logoColor=white">
   <br>
   <img src="https://img.shields.io/badge/YOLOv11-111F68?style=flat-square">
   <img src="https://img.shields.io/badge/NCNN-FF6F00?style=flat-square">
@@ -34,7 +36,7 @@ MCU 펌웨어부터 FPGA RTL, Edge AI 추론 최적화까지<br>
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
 </p>
 
-`UART` `CAN(MCP2515)` `I2C` `SPI` `BLE` · `FreeRTOS Task/Mutex/Queue` · `STM32CubeIDE` `Vivado`
+`UART` `CAN(MCP2515)` `I2C` `SPI` `BLE` `AXI4-Lite` · `FreeRTOS Task/Mutex/Queue` · `RTL 설계/검증(Testbench·Timing Closure)` · `STM32CubeIDE` `Vivado` `Vitis`
 
 ---
 
@@ -42,6 +44,7 @@ MCU 펌웨어부터 FPGA RTL, Edge AI 추론 최적화까지<br>
 
 | 프로젝트 | 기술 | 핵심 구현 |
 |---|---|---|
+| **[EdgeScope-Lite SoC](https://github.com/kimdk1005-collab/EdgeScope-Lite-SoC)**<br><sub>2026.08 · 3인팀</sub> | SystemVerilog · Vivado/Vitis<br>MicroBlaze V · AXI4-Lite<br>Basys3 (Artix-7) | 8채널 Logic Analyzer Custom IP 3종을 RTL 설계·SoC 통합해 CPU 폴링 1.67 MS/s를 **하드웨어 100 MS/s 등간격 캡처**로 전환 · 담당 **Probe Sampler IP + HW Platform 통합**(WNS +0.832 ns, 실패 엔드포인트 0) |
 | **[MimicArm](https://github.com/kimdk1005-collab/MimicArm-FPGA-Project)**<br><sub>2026.06 · 3인팀</sub> | Verilog · Vivado<br>Basys3 (Artix-7) | BRAM IP·나눗셈 없이 **D-FF 레지스터 뱅크**로 Teach & Playback 로봇팔 구현, 3관절 도달 정렬 Dwell 설계 |
 | **[Object-Detecting Autonomous Taxi](https://github.com/kimdk1005-collab/Object-Detecting-Autonomous-Taxi)**<br><sub>2026.07 · 3인팀</sub> | YOLO11n · NCNN<br>Raspberry Pi · STM32F446 · CAN | 학습 해상도 640→320 재조정으로 **탐지 지연 2초 해소**, 종료 시 STOP 3회 송신 Fail-Safe |
 | **[Beyond Control (3-Way RC Car)](https://github.com/kimdk1005-collab/3-Way-RC-Car)**<br><sub>2026.06 · 개인</sub> | STM32F411 · FreeRTOS<br>BLE · ADC+DMA | 스마트폰·자율주행·전용 컨트롤러 **3-Way 제어 통합**, P 제어 기반 복도 중앙 유지 |
