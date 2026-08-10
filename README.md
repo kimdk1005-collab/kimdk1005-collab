@@ -77,7 +77,7 @@ MCU 펌웨어부터 FPGA RTL, Edge AI 추론 최적화까지<br>
 | 프로젝트 | 기술 | 핵심 구현 |
 |---|---|---|
 | **[EdgeScope-Lite SoC](https://github.com/kimdk1005-collab/EdgeScope-Lite-SoC)**<br><sub>2026.08 · 3인팀</sub> | SystemVerilog · Vivado/Vitis<br>MicroBlaze V · Basys3 (Artix-7) | CPU 폴링 1.67 MS/s를 **하드웨어 100 MS/s 등간격 캡처**로 전환<br><sub>담당 — Probe Sampler IP 설계 · Vivado HW Platform 통합</sub> |
-| **[Object-Detecting Autonomous Taxi](https://github.com/kimdk1005-collab/Object-Detecting-Autonomous-Taxi)**<br><sub>2026.07 · 3인팀</sub> | YOLO11n · NCNN<br>Raspberry Pi · STM32F446 · CAN | 학습 해상도 640→320 재조정으로 **탐지 지연 2초 해소**<br><sub>담당 — YOLO11n 학습·ONNX 변환 파이프라인, NCNN Edge 추론 최적화, 차량 전장 설계·제작 총괄</sub> |
+| **[Object-Detecting Autonomous Taxi](https://github.com/kimdk1005-collab/Object-Detecting-Autonomous-Taxi)**<br><sub>2026.07 · 3인팀</sub> | YOLO11n · NCNN<br>Raspberry Pi · STM32F446 · CAN | 학습 해상도 640→320 재조정으로 **탐지 지연 2초 해소**<br><sub>담당 — YOLO11n 학습·NCNN Edge 추론 최적화, 차량 전장 설계·제작 총괄</sub> |
 | **[MimicArm](https://github.com/kimdk1005-collab/MimicArm-FPGA-Project)**<br><sub>2026.06 · 3인팀</sub> | Verilog · Vivado<br>Basys3 (Artix-7) | 비교기·카운터 증분 보간으로 **나눗셈기 제거**, LUT 사용량 최적화<br><sub>담당 — PWM 서보 제어, 증분 보간 로직, 하드웨어 설계·전원 배선</sub> |
 | **[Beyond Control (3-Way RC Car)](https://github.com/kimdk1005-collab/3-Way-RC-Car)**<br><sub>2026.06 · 개인</sub> | STM32F411 · FreeRTOS<br>BLE · ADC+DMA | 스마트폰·자율주행·전용 컨트롤러를 **3-Way 제어로 통합**<br><sub>담당 — 기획·회로 구성·펌웨어·제어 알고리즘 전 범위 단독 구현</sub> |
 | **[Touch-free Elevator](https://github.com/kimdk1005-collab/Touch-Free-Elevator)**<br><sub>2026.05 · 3인팀</sub> | STM32F411RE<br>Non-Blocking FSM | 비접촉 IR 호출 + **방향성 SCAN 배차 알고리즘** 구현<br><sub>담당 — 스텝모터 층간 이동 제어, FND 층 표시, 하드웨어 제작</sub> |
